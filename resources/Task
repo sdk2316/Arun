@@ -1,0 +1,9 @@
+List -> Books
+			id, title, price, author
+			
+			
+			1. Sort list of books by title (without treeset)
+				if title is same, use author for sorting
+			
+			
+			2. find all books written by given author name

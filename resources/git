@@ -1,0 +1,19 @@
+GIT -> download git
+	install 
+	
+To download new project/repo
+	$ git clone repo-url
+	
+To create new repo
+	$ git init
+	$ git add .
+	$ git commit -m "message"
+	$ git remote add origin repo-url
+	$ git push -u origin master
+	
+	
+	$ git add .
+	$ git commit -m "change"
+	$ git push
+	
+	

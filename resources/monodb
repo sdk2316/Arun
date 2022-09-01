@@ -1,0 +1,21 @@
+Mongodb is already installed as service on port: 27017
+
+installation path is
+	C:/Program Files/MongoDb/Server/5.0/bin
+		mongo.exe
+		mongod.exe
+		
+Add these commands path to environment path variable -> add new
+
+Start mongod server
+	Press Windows+R
+		services.msc
+		search for monogodb
+		start/stop
+
+Open new terminal and connect
+		mongo
+
+
+Mongodb compass
+	mongodb://localhost:27017

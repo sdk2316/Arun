@@ -1,0 +1,32 @@
+1. Install 
+	Commands are placed in
+		C:/Programes Files/Mongodb/server/5.0/bin
+			mongod
+			mongo
+			
+		Add new (do not change previous path) path to environment variables PATH
+2. Start mongod
+	a. as a service
+		start via service
+			windows+r
+				services.msc
+					mongodb -> start/stop
+	b. manually
+		create a dir as "data" open CMD
+			$ cd ~/data
+			$ mongod --dbpath .
+			
+			
+Db server is running on port 27017
+
+---------------------
+To create connection
+1. Open other terminal
+	$ mongo
+2. Server side application, springboot
+	application.properties
+		spring.data.mongodb.host= localhost
+		spring.data.mongodb.port=27017 
+		spring.data.mongodb.database= test
+
+		# spring.data.mongodb.uri=mongodb://localhost:27017/test # connection URL
